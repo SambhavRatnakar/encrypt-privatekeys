@@ -1,4 +1,4 @@
-function = (input("Would you like to encrypt or decrypt text? "))
+function = (input("Would you like to encrypt or decrypt text? ")).upper()
 if function == "encrypt":
     texttoencrypt = (input("Enter text to encrypt "))
     shift = (int(input("Enter the Shift ")))
